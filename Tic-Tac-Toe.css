@@ -1,0 +1,84 @@
+	/* CSS Code */
+	/* Heading */
+	body
+	{
+		background-image: url('media/tic-tac-toe.jpg');
+		background-position: center;
+		background-size: cover;
+	}
+	h1 {
+	    color:rgb(243, 7, 172);
+		text-shadow: 2px 2px 4px rgb(243, 7, 172);
+	    font-size: 65px;
+		font-family: 'Times New Roman', Times, serif;
+		line-height: 25px;
+	}
+	
+	/* 3*3 Grid */
+	#b1,
+	#b2,
+	#b3,
+	#b4,
+	#b5,
+	#b6,
+	#b7,
+	#b8,
+	#b9 {
+	    width: 80px;
+	    height: 52px;
+	    margin: auto;
+	    border: 1px solid greenyellow;
+		box-shadow: 2px 2px 4px greenyellow;
+	    border-radius: 6px;
+	    font-size: 30px;
+	    text-align: center;
+		margin-top:0px;
+		
+	}
+	#b1,#b4,#b7
+	{
+		margin-left: 60px;
+	}
+
+	/* Reset Button */
+	#but {
+	    box-sizing: border-box;
+	    width: 95px;
+	    height: 40px;
+	    border: 1px solid rgb(243, 7, 172);
+	    margin: auto;
+	    border-radius: 4px;
+	    font-family:'Times New Roman', Times, serif;
+	    background-color: rgb(243, 7, 172);
+	    color: white;
+	    font-size: 20px;
+	    cursor: pointer;
+		align-items: center;
+		margin-left: 130px;
+		box-shadow: 2px 2px 4px rgb(243, 7, 172);
+	}
+
+	/* Player turn space */
+	#print {
+	    font-family: 'Times New Roman', Times, serif;
+		font-weight: bold;
+	    color: rgb(30, 34, 255);
+	    font-size: 30px;
+		margin-top: 20px;
+		margin-left: 0px;
+	}
+
+	/* Main Container */
+	#main {
+		margin-left: 100px;
+		margin-top: 130px;
+	}
+
+	/* Game Instruction Text */
+	#ins {
+	    font-family:'Times New Roman', Times, serif;
+	    color: rgb(241, 122, 11);
+	    font-size: 27px;
+		margin-left: 30px;
+		margin-top: 50px;
+	}
